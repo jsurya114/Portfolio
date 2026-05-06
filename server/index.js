@@ -24,6 +24,14 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() })
 })
 
+// Serve frontend static files in production
+const path = require('path')
+app.use(express.static(path.join(__dirname, 'public')))
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'))
+})
+
 // Connect to MongoDB then start server
 mongoose
   .connect(process.env.MONGODB_URI)

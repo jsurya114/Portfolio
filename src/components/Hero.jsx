@@ -70,14 +70,16 @@ export default function Hero() {
         <div className="hero-anim-buttons flex gap-4 justify-center max-sm:flex-col max-sm:items-center">
           <a
             href="#work"
-            className="inline-flex items-center justify-center font-body text-sm font-medium px-8 py-3.5 rounded-md bg-charcoal text-warm-white border border-charcoal hover:bg-[#1a1a1a] transition-all duration-250 cursor-none tracking-wide"
+            className="inline-flex items-center justify-center font-body text-sm font-medium px-8 py-3.5 rounded-md hover:opacity-80 transition-all duration-250 cursor-none tracking-wide"
+            style={{ backgroundColor: '#0a0a0a', color: '#f5f3ee', border: '1px solid #0a0a0a' }}
             data-cursor="pointer"
           >
             See My Work
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center justify-center font-body text-sm font-medium px-8 py-3.5 rounded-md bg-transparent text-charcoal border border-charcoal/20 hover:border-charcoal transition-all duration-250 cursor-none tracking-wide"
+            className="inline-flex items-center justify-center font-body text-sm font-medium px-8 py-3.5 rounded-md hover:opacity-80 transition-all duration-250 cursor-none tracking-wide"
+            style={{ backgroundColor: 'transparent', color: '#0a0a0a', border: '1px solid rgba(10,10,10,0.2)' }}
             data-cursor="pointer"
           >
             Get in Touch

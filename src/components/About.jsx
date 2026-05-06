@@ -27,12 +27,17 @@ export default function About() {
         <div className="grid grid-cols-[1fr_1.4fr] gap-16 items-start max-md:grid-cols-1 max-md:gap-10">
           {/* Photo */}
           <RevealItem>
-            <div className="w-full aspect-[3/4] rounded-2xl flex items-center justify-center overflow-hidden max-md:max-w-[280px]"
+            <div className="group w-full aspect-[3/4] rounded-2xl flex items-center justify-center overflow-hidden max-md:max-w-[280px]"
               style={{ background: 'linear-gradient(145deg, #1a1612, #2a2420)' }}
             >
-              <span className="font-display text-7xl font-light text-warm-white/[0.12] tracking-wider">
-                JS
-              </span>
+              <div className="relative flex items-center justify-center w-40 h-40">
+                {/* Outer Ring */}
+                <span className="absolute inset-0 border border-[#f5f3ee]/10 rounded-full group-hover:scale-110 group-hover:border-[#f5f3ee]/20 transition-all duration-700 ease-out" />
+                {/* Initials */}
+                <span className="font-display text-7xl font-light italic text-[#f5f3ee]/15 tracking-tighter pr-2 group-hover:text-[#f5f3ee]/30 transition-colors duration-700">
+                  JS
+                </span>
+              </div>
             </div>
           </RevealItem>
 
