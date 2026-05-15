@@ -120,7 +120,7 @@ export default function Work() {
                   href={proj.link || '#'}
                   target={proj.link && proj.link !== '#' ? '_blank' : undefined}
                   rel={proj.link && proj.link !== '#' ? 'noopener noreferrer' : undefined}
-                  className="inline-flex items-center gap-1.5 font-mono text-xs font-light text-warm-white opacity-50 tracking-wide px-4 py-2 border border-warm-white/[0.12] rounded-md hover:opacity-100 hover:border-warm-white/30 transition-all duration-200 whitespace-nowrap"
+                  className="inline-flex items-center gap-1.5 font-mono text-xs font-light text-warm-white opacity-80 tracking-wide px-4 py-2 border border-warm-white/20 rounded-md hover:opacity-100 hover:border-warm-white/40 transition-all duration-200 whitespace-nowrap"
                   data-cursor="pointer"
                 >
                   View Project <ArrowIcon />
