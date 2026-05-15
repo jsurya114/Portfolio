@@ -71,14 +71,6 @@ export default function Contact() {
             >
               {showForm ? 'Cancel' : 'Send me an email'}
             </button>
-            <a
-              href="#"
-              className="inline-flex items-center justify-center font-body text-sm font-medium px-8 py-3.5 rounded-md hover:opacity-80 transition-all duration-250 cursor-none tracking-wide"
-              style={{ backgroundColor: 'transparent', color: '#f5f3ee', border: '1px solid rgba(245,243,238,0.25)' }}
-              data-cursor="pointer"
-            >
-              Book a free call
-            </a>
           </div>
         </RevealItem>
 

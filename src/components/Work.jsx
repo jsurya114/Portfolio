@@ -20,7 +20,7 @@ const projects = [
     ],
     tags: ['Developer Platform', 'CI/CD Pipeline', 'Real-Time App'],
     featured: true,
-    link: 'https://github.com/jayasuryas',
+    link: 'https://github.com/jsurya114/Version-Vault',
   },
   {
     num: '02',
@@ -33,21 +33,21 @@ const projects = [
     ],
     tags: ['Healthcare App', 'Admin Dashboard', 'Freelance Project'],
     featured: true,
-    link: '#',
+    link: 'https://github.com/jsurya114/Dental-Buddy',
   },
   {
     num: '03',
     name: 'CycloneX',
     desc: 'A production-ready e-commerce platform for selling bicycles and accessories. Clean product pages, wishlist, cart, coupons, and a full admin dashboard for managing everything behind the scenes.',
     tags: ['Online Store', 'Admin Panel', 'Full-Stack App'],
-    link: 'https://github.com/jayasuryas',
+    link: 'https://github.com/jsurya114/CycloneX',
   },
   {
     num: '04',
     name: 'Nasa Logistics',
     desc: 'A logistics and driver management platform. Admins assign orders, track driver availability in real-time, generate Excel reports, and manage the full delivery workflow — built for scale with AWS infrastructure.',
     tags: ['Logistics Platform', 'Admin Dashboard', 'Cloud Deployed'],
-    link: 'https://github.com/jayasuryas',
+    link: 'https://github.com/jsurya114/nasa',
   },
 ]
 
