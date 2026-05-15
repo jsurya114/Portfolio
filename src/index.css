@@ -55,7 +55,7 @@ html.lenis, html.lenis body {
   body { cursor: none; }
 }
 
-a { color: inherit; text-decoration: none; }
+a { text-decoration: none; }
 
 /* ---- Custom Cursor ---- */
 .cursor-dot {
